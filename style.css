@@ -160,6 +160,7 @@ footer p {
   .about-items {
     display: flex;
     align-items: center;
+    align-self: center;
   }
 
   #about img {
@@ -191,5 +192,6 @@ footer p {
   .down-item-p{
     display: flex;
     flex-direction: column;
+    align-self: center;
   }
 }
