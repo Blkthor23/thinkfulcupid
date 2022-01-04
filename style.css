@@ -90,6 +90,9 @@ header nav ul li {
 header nav ul {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  margin-left: 2em;
 }
 header nav ul li a {
   color: #ecdbc9;
