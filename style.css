@@ -36,7 +36,8 @@ section {
   display: flex;
   flex-direction: column;
   align-content: center;
-  width: 100%;
+  max-width: 100%;
+  min-width: 0
 }
 
 section.alternate-background {
@@ -47,6 +48,7 @@ section.alternate-background {
 
 main img {
   max-width: 100%;
+  min-width: 0;
 }
 
 
@@ -105,12 +107,14 @@ form {
   padding: 10px;
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 form div {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 form label {
@@ -120,7 +124,8 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  max-width: 180px;
+  min-width: 0;
 }
 
 form button {
@@ -129,14 +134,16 @@ form button {
   color: #fff;
   font-size: 24px;
   padding: 15px;
-  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 
 /* -------  Footer ------- */
 
 footer {
   background-color: #83092e;
-  width: 100%;
+  max-width: 100%;
+  min-width: 0;
   height: auto;
 }
 
@@ -163,7 +170,18 @@ footer p {
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
-    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  nav {
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  .logo {
+    max-width: 100%;
+    min-width: 0;
   }
 
   #join img {
@@ -184,13 +202,15 @@ footer p {
   }
 
   #about img {
-    width: 30%;
+    max-width: 30%;
+    min-width: 0;
     height: auto;
   }
   .container {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
   
   h2 {
@@ -198,7 +218,8 @@ footer p {
   }
 
   #download img {
-    width: 50%;
+    max-width: 50%;
+    min-width: 0;
     height: auto;
   }
 
